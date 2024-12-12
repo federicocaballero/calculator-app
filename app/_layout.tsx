@@ -14,7 +14,7 @@ if(!loaded){
 }
   return (
     <View style={{backgroundColor: Colors.background, flex: 1}}>
-      <StatusBar barStyle={'dark-content'} />
+      <StatusBar backgroundColor={Colors.background}/>
       <Slot/>
     </View>
   )
