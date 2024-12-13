@@ -3,12 +3,14 @@ import React from 'react'
 import {useFonts} from 'expo-font'
 import { Slot } from 'expo-router'
 import { Colors } from '@/constants/Colors'
+import * as NavigationBar from 'expo-navigation-bar';
 
 const RootLayout = () => {
 const [loaded] = useFonts({
   SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf')
 })
 
+NavigationBar.setBorderColorAsync('black');
 if(!loaded){
   return null;
 }
