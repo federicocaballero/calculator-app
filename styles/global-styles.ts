@@ -28,7 +28,7 @@ export const globalStyles = StyleSheet.create({
         justifyContent: 'center',
         marginBottom: 18,
         paddingHorizontal: 10,
-        gap: 20
+        gap: 10
     },
 
     //Buttons
